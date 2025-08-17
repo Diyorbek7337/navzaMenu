@@ -1,0 +1,29 @@
+.SearchBox {
+    padding: 20px;
+    font-family: "Open Sans";
+}
+.searchContent {
+    position: relative;
+}
+.searchContent input{
+    width: 100%;
+    border-radius: 25px;
+    padding: 15px;
+    border: 1px solid green;
+    background-color: rgb(228, 233, 228);
+    outline-color: rgb(77, 180, 77);
+}
+.searchContent input::placeholder {
+    font-size: 18px;
+    color: #9e9e9e;
+}
+.searchIcon {
+    position: absolute;
+    padding: 8px 11px;
+    background-color: green;
+    border-radius: 50%;
+    top: 3.8px;
+    color: white;
+    font-size: 18px;
+    right: 4.5px;
+}

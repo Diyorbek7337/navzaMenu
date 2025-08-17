@@ -21,7 +21,7 @@ img {
     display: flex;
     align-items: center;
     font-size: 24px;
-    /* color: rgb(92, 133, 92); */
+    color: #5e5e5e;
     font-weight: 500;
 }
 .headerNotification {
