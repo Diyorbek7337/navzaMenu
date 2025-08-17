@@ -1,0 +1,29 @@
+img {
+    width: 100%;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+.headerProfile {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.headerItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Open sans";
+    
+}
+.headerLocation {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    /* color: rgb(92, 133, 92); */
+    font-weight: 500;
+}
+.headerNotification {
+    font-size: 30px;
+}
