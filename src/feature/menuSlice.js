@@ -37,3 +37,11 @@ const menuSlice = createSlice({
 
 export const { setSearchQuery } = menuSlice.actions;
 export default menuSlice.reducer;
+
+export const selectFilteredMenu = (state) => {
+  const { items, searchQuery } = state.menu;
+  if (!searchQuery) return items;
+  return items.filter((item) =>
+    item.name.toLowerCase().includes(searchQuery.toLowerCase())
+  );
+};

@@ -2,6 +2,7 @@ import React from 'react'
 import { IoSearch } from "react-icons/io5";
 import "./search.css";
 
+
 function Search() {
     return (
         <div className='SearchBox container'>
