@@ -63,7 +63,7 @@ const [location, setLocation] = useState("Aniqlanmoqda...");
                 <img src={Avatar} alt='user'/>
             </div>
             <div className='headerLocation'>
-                <p><IoLocationOutline/> {location}</p>
+                <p><IoLocationOutline/> <span>{location}</span></p>
             </div>
             <div className='headerNotification'>
                 <IoMdNotificationsOutline  />   
